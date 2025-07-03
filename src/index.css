@@ -51,3 +51,8 @@ body {
   text-align: center;
 }
 
+@media ()max-width: 768px) {
+.input-group {
+   flex-direction: column;
+}
+}
