@@ -53,6 +53,9 @@ body {
 
 @media (max-width: 768px) {
 .input-group {
-   flex-direction: column;
+   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.5rem;
 }
 }
